@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--- ICONOS --->
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU SUPERIOR-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mi Portafolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i> <!--- Icono barra --->
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">  
+            <div class="contenido-img"> 
+                <img src="img/photo_me.jpg" alt="">
+            </div>
+            <h1>SERGIO HERNANDEZ GARCIA</h1>
+            <h2>Ingeniero en Programacion</h2>
+            <div class="redes"> <!--- Iconos de redes sociales --->
+                <a href="https://www.facebook.com/profile.php?id=100009895891414" target="blank"><i class="fa-brands fa-square-facebook"></i><a>
+                <a href="https://www.instagram.com/hdz_sergio2/" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://t.me/Hdzsergio" target="blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://line.me/ti/p/SsezhwgSOi" target="blank"><i class="fa-brands fa-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MI</h2>
+            <p><span>Mi nombre es Sergio Hernandez Garcia.</span> Soy originario de la Ciudad de San Luis Potosi, Mexico; nacido el 14 de enero del 2002. Actualmente estoy cursando la universidad, dentro de la Licenciatura en Ingenieria de Programacion de Videojuegos en UNIAT. La meta en la vida a la que aspiro es poder superar la trayectoria profesional y vida humanitaria de mis padres.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            14-01-2002
+                        </li>
+                        <li>
+                            <strong>Ciudad Natal</strong>
+                            San Luis Potosi, S.L.P.: Mexico
+                        </li>
+                        <li>
+                            <strong>Nacionalidad</strong>
+                            Mexicana
+                        </li>
+                        <li>
+                            <strong>Profesion/Actividad Principal</strong>
+                            Estudiante
+                        </li>
+                        <li>
+                            <strong>Idiomas</strong>
+                            Español = Origen,
+                            Ingles = C1 (Certificado TOEFL),
+                            Frances = A1 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Profesional</h4>
+                        <span class="casa">University of Advanced Technologies</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>Ingenieria en Programacion de Videojuegos</p> 
+                        <p> Av. Dr. Manuel Nava #200 3A. Col. Lomas los Filtros, 2a Seccion, San Luis Potosí, S.L.P., México.</p>
+                        <p>Tel. (01 444) 833 0810, 833 0820 y 833 0830.</p>
+                        <p>-----------------------------------------------</p>
+                        <span class="casa">Universidad Iberoamericana León</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Licenciatura en Ingenieria de Bionanotecnologia; Blvd. 
+                        Jorge Vértiz Campero 1640, Fracciones Cañada de Alfaro, 37238 León, Gto.</p>
+                        <p>Teléfono: 477 710 0600</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachillerato</h4>
+                        <span class="casa">Universidad TecMilenio, Campus S.L.P.</span>
+                        <span class="fecha">2017 - 2021</span>
+                        <p>Av. Parque Chapultepec 1550, 78299 San Luis, S.L.P. 
+                        Teléfono: 444 129 2200</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Secundaria - Primaria - Kinder</h4>
+                        <span class="casa">Insitiuto Calmecac</span>
+                        <span class="fecha">2005 - 2017</span>
+                        <p>Turmalina 1930, Industrias, 78399 San Luis, S.L.P. 
+                        Teléfono: 8247595</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Barista y Sushero</h4>
+                        <span class="casa">Makimore Sushi, S.L.P.</span>
+                        <span class="fecha">Oct/20/2022 - Actualidad</span>
+                        <p>Av Topacio 845, Jardines del Sur, 78399 San Luis, S.L.P. 
+                        Teléfono: 444 339 5930</p>
+                        <div class="conectord">
+                        <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Barman, Cocinero y Sushero</h4>
+                        <span class="casa">Inari Sushi, S.L.P.</span>
+                        <span class="fecha">Abr/01/2022 - Oct/12/2022</span>
+                        <p>Av. Benito Juarez 1272, Valle Dorado, 78399 San Luis, S.L.P. 
+                        Teléfono: 444 567 6085</p>
+                        <div class="conectord">
+                        <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Tutor Particular Nv. Kinder - Primaria</h4>
+                        <span class="casa">Freelance, León</span>
+                        <span class="fecha">2020-2021</span>
+                        <p>Priv. Machupichu, Las Fuentes de San Pedro, 37278 León, Gto.</p>
+                        <div class="conectord">
+                        <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ayudante de Cocinero</h4>
+                        <span class="casa">Brisa Del Mar, S.L.P.</span>
+                        <span class="fecha">Jul/05/2019 - Dic/28/2019</span>
+                        <p>Av Industrias, Granate 1000, Valle Dorado, 78399 San Luis, S.L.P. 
+                        Teléfono: 444 179 9418</p>
+                        <div class="conectord">
+                        <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Cacta3D.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/unity2.png" alt="">
+                    <div class="overlay">
+                        <h3>Programación</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fotografia.png" alt="">
+                    <div class="overlay">
+                        <h3>Extras</h3>
+                        <p>Hobbies</p>
+                    </div>
+                </div>
+            </div>
+            <button>
+                MI GALERIA <a href="./galeria.html" target="blank"> <i class="fa-solid fa-circle-chevron-right"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingresa tu nombre">
+                    <input type="text" placeholder="Numero telefonico">
+                    <input type="text" placeholder="Ingresa tu correo">
+                    <input type="text" placeholder="Tema a tratar">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button2>
+                        Enviar Mensaje <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button2>
+                </div>
+
+                <div class="col">
+                    <img src="img/maps.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                Amatista #..., Fracc. Industrias; San Luis Potosi, S.L.P., Mexico
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Celular: (+52)444 498 5235 
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-envelope"></i>
+                                Gmail: sergio.hernandez@unait.edu.mx
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

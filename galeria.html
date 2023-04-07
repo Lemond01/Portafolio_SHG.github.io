@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--- ICONOS --->
+    <title>Galeria</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU SUPERIOR-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mi Galeria</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#igaleria" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#gportfolio" onclick="seleccionar()">GALERIA</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i> <!--- Icono barra --->
+            </div>
+        </header>
+    </div>
+
+    <section id="igaleria" class="igaleria">
+        <div class="contenido-banner">  
+            <div class="contenido-img"> 
+                <img src="img/photo_me.jpg" alt="">
+            </div>
+            <h1>SERGIO HERNANDEZ GARCIA</h1>
+            <h2>Ingeniero en Programacion</h2>
+            <div class="redes"> <!--- Iconos de redes sociales --->
+                <a href="https://www.facebook.com/profile.php?id=100009895891414" target="blank"><i class="fa-brands fa-square-facebook"></i><a>
+                <a href="https://www.instagram.com/hdz_sergio2/" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://t.me/Hdzsergio" target="blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://line.me/ti/p/SsezhwgSOi" target="blank"><i class="fa-brands fa-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gportfolio" class="gportfolio">
+        <div class="contenido-seccion">
+            <h2>GALERIA</h2>
+            <div class="ggaleria">
+                <div class="gproyecto">
+                    <img src="img/Cacta3D.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/code1.png" alt="">
+                    <div class="overlay">
+                        <h3>Programación</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/acuarismo.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Extras</h3>
+                        <p>Hobbies</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/Esqueleto_Render.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/code2.png" alt="">
+                    <div class="overlay">
+                        <h3>Programación</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/fotografia.png" alt="">
+                    <div class="overlay">
+                        <h3>Extras</h3>
+                        <p>Hobbies</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/SkiOOs.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/unity.png" alt="">
+                    <div class="overlay">
+                        <h3>Programación</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/pokemon.png" alt="">
+                    <div class="overlay">
+                        <h3>Extras</h3>
+                        <p>Hobbies</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/Koku.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/unity2.png" alt="">
+                    <div class="overlay">
+                        <h3>Programación</h3>
+                        <p>Trabajos Escolares</p>
+                    </div>
+                </div>
+                <div class="gproyecto">
+                    <img src="img/karate.png" alt="">
+                    <div class="overlay">
+                        <h3>Extras</h3>
+                        <p>Hobbies</p>
+                    </div>
+                </div>
+            </div>
+            <button>
+                MI PORTAFOLIO <a href="./index.html" target="blank"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+
+</body>
+</html>
